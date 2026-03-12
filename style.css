@@ -1,0 +1,257 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#1a1a1a;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+.header{
+background:white;
+border-bottom:1px solid #eee;
+position:sticky;
+top:0;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-weight:600;
+font-size:18px;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#333;
+}
+
+.call-btn{
+background:#ff7a00;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.hero{
+padding:100px 0;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.hero-text h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero-text span{
+color:#ff7a00;
+}
+
+.hero-buttons{
+margin-top:25px;
+display:flex;
+gap:15px;
+}
+
+.btn-main{
+background:#1e88ff;
+color:white;
+padding:14px 24px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.btn-outline{
+border:1px solid #1e88ff;
+padding:14px 24px;
+border-radius:6px;
+color:#1e88ff;
+text-decoration:none;
+}
+
+.badges{
+margin-top:30px;
+display:flex;
+gap:20px;
+font-size:14px;
+color:#666;
+}
+
+.hero-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.hero-card input,
+.hero-card textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.hero-card button{
+margin-top:15px;
+width:100%;
+padding:14px;
+background:#ff7a00;
+border:none;
+color:white;
+border-radius:6px;
+}
+
+.services{
+padding:80px 0;
+text-align:center;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.service{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.reviews{
+padding:80px 0;
+background:#eef3f8;
+text-align:center;
+}
+
+.review-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.review{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.area{
+padding:80px 0;
+text-align:center;
+}
+
+.faq{
+padding:80px 0;
+background:#eef3f8;
+}
+
+.faq-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.faq-item{
+background:white;
+padding:25px;
+border-radius:10px;
+}
+
+.cta{
+padding:90px 0;
+text-align:center;
+background:#1e88ff;
+color:white;
+}
+
+.cta-button{
+background:white;
+color:#1e88ff;
+padding:16px 26px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+footer{
+background:white;
+padding:30px 0;
+border-top:1px solid #eee;
+}
+
+.footer{
+display:flex;
+justify-content:space-between;
+}
+
+footer a{
+color:#555;
+margin-left:15px;
+text-decoration:none;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+width:55px;
+height:55px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+font-size:22px;
+color:white;
+}
+
+@media(max-width:900px){
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+.services-grid{
+grid-template-columns:1fr;
+}
+
+.review-grid{
+grid-template-columns:1fr;
+}
+
+.faq-grid{
+grid-template-columns:1fr;
+}
+
+}
